@@ -1,0 +1,98 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/a1/86/a8/a186a8aff83506c70b0b307e3fb062c8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.container-main {
+  min-height: 500px;
+  width: 90%;
+  background-color: white;
+  margin: auto;
+  margin-top: 5px !important;
+  text-align: center;
+  bottom: 0%;
+  max-height: 1500px;
+  padding-bottom: 20px;
+}
+
+.container-log {
+    width: 30%;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px !important;
+    text-align: center;
+    bottom: 0%;
+    max-height: 900px;
+    padding: 20px;
+  }
+  .formulario-nuevo{
+    margin-left: 30%;
+    width: 40%;
+  }
+  .nombre-poke{
+    text-transform: capitalize;
+  }
+.botones{
+  max-width: 50%;
+  min-width: 20%;
+  margin-left: 25%;
+  text-align: center;
+}
+#tabla-jugador{
+  height:400px;
+  overflow:scroll;
+  overflow-x:hidden;
+}
+.equipo-main {
+  display: grid;
+  grid-gap: 50px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+@media (max-width: 650px) {
+  .equipo-main {
+    
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  }
+}
+@media (max-width: 765px  )  and (min-width: 650px) {
+  .equipo-main {
+    
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  }
+}
+.equipo-incial {
+  max-height: 900px;
+  height: 90%;
+  display: grid;
+  grid-gap: 50px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.pop-up-class{
+    max-height: 10px;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav i:hover{
+    color: black;
+}
+
+/* ESTILOS SOLO PARA EL CHAT*/
